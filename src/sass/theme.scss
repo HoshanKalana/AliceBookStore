@@ -1,0 +1,25 @@
+@import './node_modules/bootstrap/scss/bootstrap.scss'; // <-------- Loads Bootstrap5
+
+@import './node_modules/owl.carousel/src/scss/owl.carousel.scss';// <-------- Loads Owl Carousel
+@import './node_modules/owl.carousel/src/scss/owl.theme.default.scss'; // <-------- Loads Owl Carousel
+
+//@import './node_modules/aos/src/sass/aos.scss'; // <-------- Loads AOS Animations
+
+@import './node_modules/hover.css/scss/hover.scss'; // <-------- Loads Hover Animations
+
+
+@import "theme_variables";  // <-------- Add variables into this file. Also add variables to overwrite Bootstrap variables here
+@import "theme_common";  // <-------- Add common styles into this file.
+
+// Any additional imported files //
+// <-------- That's where you can add your own design. Thats your part!
+@import "theme/header";
+@import "theme/footer";
+@import "theme/home";
+@import "theme/product";
+@import "theme/contact";
+
+
+
+
+
