@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/owl-carousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/owl-carousel/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="./assets/remixicon/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
     <link rel="stylesheet" href="./assets/css/theme.css">
 
     <title>Alice Book Store</title>
@@ -20,20 +20,22 @@
         <div class="top-bar">
             <div class="container">
                 <div class="row space">
-                    <div class="col-4">
-                        <a class="navbar-brand" href="./"><span>Alice</span> Book Store</a>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="site-logo">
+                            <a class="navbar-brand" href="./"><span>Alice</span> Book Store</a>
+                        </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 col-4">
                         <div class="contact-no">
                             <a href="#">Contact No : <span>+44 1632 960112</span></a>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 col-4">
                         <div class="user-account">
                             <i class="ri-account-circle-line"></i>
                             <div class="link">
-                                <a href="#">Sign In</a> <span>/</span>
-                                <a href="#">Create an Account</a>
+                                <a href="./login.php">Sign In</a> <span>/</span>
+                                <a href="./register.php">Create an Account</a>
                             </div>
                         </div>
                     </div>
