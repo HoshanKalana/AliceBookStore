@@ -3,6 +3,12 @@
     z-index: 1000;
     position: absolute;
     background-color: transparent;
+    @include media-breakpoint-down(lg) { 
+        background: $color-5;
+     }
+    @include media-breakpoint-down(md) { 
+        background: $color-5;
+     }
 
     .inner {
         position: absolute;
@@ -13,6 +19,12 @@
         -moz-transition: background-color 2s ease;
         -o-transition: background-color 2s ease;
         transition: background-color 2s ease;
+        @include media-breakpoint-down(lg) { 
+            background: $color-5;
+         }
+        @include media-breakpoint-down(md) { 
+            background: $color-5;
+         }
 
         .top-bar {
             padding: 10px 0;
@@ -20,17 +32,23 @@
             .space {
                 align-items: center;
 
-                .navbar-brand{
-                    color: $color-6;
-                    font-size: 25px;
-                    font-weight:400;
-                    
-                    span{
-                        color: $color-4;
-                        font-size: 30px;
-                        font-weight: 600;
-                        text-transform: uppercase;
+                .site-logo{
+                    .navbar-brand{
+                        color: $color-6;
+                        font-size: 25px;
+                        font-weight:400;
+                        
+                        span{
+                            color: $color-4;
+                            font-size: 30px;
+                            font-weight: 600;
+                            text-transform: uppercase;
+                        }
                     }
+
+                    @include media-breakpoint-down(md) { 
+                        text-align: center;
+                     }
                 }
 
                 .contact-no{
@@ -51,6 +69,9 @@
                     display: flex;
                     align-items: center;
                     justify-content: end;
+                    @include media-breakpoint-down(md) { 
+                        justify-content: center;
+                     }
 
                     i{
                         color: $color-6;
@@ -82,12 +103,25 @@
             padding-bottom: 10px;
             .navbar-nav{
 
+                @include media-breakpoint-down(lg) { 
+                    padding-top: 20px;
+                 }
+
+                @include media-breakpoint-down(md) { 
+                    padding-top: 20px;
+                 }
                 .nav-item{
                     .nav-link{
                         color: $color-6;
                         font-size: 18px;
                         font-weight: 400;
                         padding: 8px 20px;
+                        @include media-breakpoint-down(lg) { 
+                            text-align: center;
+                         }
+                        @include media-breakpoint-down(md) { 
+                            text-align: center;
+                         }
                     }
 
                     .dropdown-menu{
@@ -123,6 +157,14 @@
                         margin-right: 40px;
                         display: flex;
                         align-items: center;
+                        @include media-breakpoint-down(lg) { 
+                            margin-right: 0px;
+                            justify-content: center;
+                         }
+                        @include media-breakpoint-down(md) { 
+                            margin-right: 0px;
+                            justify-content: center;
+                         }
 
                         i{
                             padding-left: 30px;
@@ -136,8 +178,25 @@
 
             }
 
+            .navbar-toggler{
+                border: 1px solid #fff;
+                i{
+                    color: #fff;
+                }
+
+                &:focus{
+                    box-shadow: unset;
+                }
+            }
+
             .cart{
                 align-items: center;
+                @include media-breakpoint-down(lg) { 
+                    justify-content: center;
+                 }
+                @include media-breakpoint-down(md) { 
+                    justify-content: center;
+                 }
                 a{
                     color: $color-6;
                     font-size: 16px;

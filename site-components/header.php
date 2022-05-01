@@ -2,17 +2,14 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./assets/owl-carousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../assets/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/owl-carousel/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
-    <link rel="stylesheet" href="./assets/css/theme.css">
-
+    <link rel="stylesheet" href="../assets/css/theme.css">
     <title>Alice Book Store</title>
-
 </head>
 
 <header class="header">
@@ -34,8 +31,8 @@
                         <div class="user-account">
                             <i class="ri-account-circle-line"></i>
                             <div class="link">
-                                <a href="./login.php">Sign In</a> <span>/</span>
-                                <a href="./register.php">Create an Account</a>
+                                <a href="/pages/login.php">Sign In</a> <span>/</span>
+                                <a href="/pages/register.php">Create an Account</a>
                             </div>
                         </div>
                     </div>
@@ -47,7 +44,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="ri-menu-2-fill"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -58,22 +55,22 @@
                                 <i class="ri-menu-fill"></i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./school.php">School Books</a></li>
+                                <li><a class="dropdown-item" href="/pages/school.php">School Books</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="./education.php">Eductaion</a></li>
-                                <li><a class="dropdown-item" href="./novels.php">Novels</a></li>
+                                <li><a class="dropdown-item" href="/pages/education.php">Eductaion</a></li>
+                                <li><a class="dropdown-item" href="/pages/novels.php">Novels</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./">Home</a>
+                            <a class="nav-link active" aria-current="page" href="../">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./stationary-products.php">Stationary Product</a>
+                            <a class="nav-link" href="/pages/stationary-products.php">Stationary Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contact-us.php">Contact Us</a>
+                            <a class="nav-link" href="/pages/contact-us.php">Contact Us</a>
                         </li>
                     </ul>
                     <div class="cart d-flex">

@@ -51,8 +51,8 @@
                 <div class="products-area">
                     <div class="container">
                         <div class="row row-cols-1 row-cols-md-4 g-4">
-                            <div class="col">
-                                <div class="card h-100 hvr-grow">
+                            <div class="col-12 col-md-6 col-lg-3 hvr-grow">
+                                <div class="card h-100">
                                     <img src="./assets/images/book-1.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Sample Book Name</h5>
@@ -64,8 +64,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="card h-100 hvr-grow">
+                            <div class="col-12 col-md-6 col-lg-3 hvr-grow">
+                                <div class="card h-100">
                                     <img src="./assets/images/book-2.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Sample Book Name</h5>
@@ -77,8 +77,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="card h-100 hvr-grow">
+                            <div class="col-12 col-md-6 col-lg-3 hvr-grow">
+                                <div class="card h-100">
                                     <img src="./assets/images/book-3.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Sample Book Name</h5>
@@ -90,8 +90,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="card h-100 hvr-grow">
+                            <div class="col-12 col-md-6 col-lg-3 hvr-grow">
+                                <div class="card h-100">
                                     <img src="./assets/images/book-4.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Sample Book Name</h5>
@@ -115,10 +115,10 @@
                     <h4>About Us</h4>
                 </div>
                 <div class="row content">
-                    <div class="col-12 col-md-6 col-lg-6">
+                    <div class="col-12 col-md-12 col-lg-6">
                         <img class="img-fluid" src="./assets/images/slider-img-3.jpg" alt="">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6">
+                    <div class="col-12 col-md-12 col-lg-6">
                         <div class="content-wrap">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, mollitia. Neque voluptas
                                 temporibus nesciunt odio deserunt, beatae quae distinctio pariatur autem perferendis
@@ -143,8 +143,8 @@
                 <div class="products-area">
                     <div class="container">
                         <div class="row row-cols-1 row-cols-md-4 g-4">
-                            <div class="col">
-                                <div class="card h-100 hvr-grow">
+                            <div class="col-12 col-md-6 col-lg-3 hvr-grow">
+                                <div class="card h-100">
                                     <img src="./assets/images/book-1.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Sample Book Name</h5>
@@ -160,8 +160,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="card h-100 hvr-grow">
+                            <div class="col-12 col-md-6 col-lg-3 hvr-grow">
+                                <div class="card h-100">
                                     <img src="./assets/images/book-2.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Sample Book Name</h5>
@@ -177,8 +177,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="card h-100 hvr-grow">
+                            <div class="col-12 col-md-6 col-lg-3 hvr-grow">
+                                <div class="card h-100">
                                     <img src="./assets/images/book-3.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Sample Book Name</h5>
@@ -194,8 +194,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="card h-100 hvr-grow">
+                            <div class="col-12 col-md-6 col-lg-3 hvr-grow">
+                                <div class="card h-100">
                                     <img src="./assets/images/book-4.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Sample Book Name</h5>

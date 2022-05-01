@@ -14,6 +14,9 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    @include media-breakpoint-down(md) { 
+                        min-height: 100vh;
+                    }
 
                     .overlay {
                         background-color: rgba(17, 17, 17, 0.493);
@@ -29,10 +32,17 @@
                         width: 60%;
                         text-align: center;
                         color: $color-6;
+                        @include media-breakpoint-down(md) { 
+                            width: 100%;
+                            padding: 40px 15px 0;
+                        }
 
                         h2 {
                             text-transform: uppercase;
                             letter-spacing: 1.2px;
+                            @include media-breakpoint-down(md) { 
+                                font-size: 20px;
+                            }
                         }
 
                         h1 {
@@ -41,11 +51,17 @@
                             span {
                                 color: $color-4;
                             }
+                            @include media-breakpoint-down(md) { 
+                                font-size: 22px;
+                            }
                         }
 
                         p {
                             font-size: 18px;
                             font-weight: 500;
+                            @include media-breakpoint-down(md) { 
+                                font-size: 14px;
+                            }
                         }
                     }
                 }
@@ -54,12 +70,24 @@
 
         .new-release {
             padding: 50px 0;
-
+            @include media-breakpoint-down(lg) { 
+                padding: 20px 0;
+             }
+            @include media-breakpoint-down(md) { 
+                padding: 20px 0;
+            }
             .section-heading {
                 //background-color: $color-2;
                 border-bottom: 2px solid $color-2;
                 width: 20%;
                 padding: 10px 0px;
+                @include media-breakpoint-down(lg) { 
+                    width: 60%;
+                 }
+                @include media-breakpoint-down(md) { 
+                    width: 100%;
+                    text-align: center;
+                }
 
                 h4 {
                     color: #1e212b;
@@ -131,12 +159,22 @@
 
         .about-us{
             padding: 50px 0;
+            @include media-breakpoint-down(lg) { 
+                padding: 20px 0;
+             }
+            @include media-breakpoint-down(md) { 
+                padding: 20px 0;
+            }
             .section-heading{
                 border-bottom: 2px solid $color-2;
                 width: 20%;
                 padding: 10px 0px;
                 text-align: center;
                 margin: 0 auto;
+                @include media-breakpoint-down(md) { 
+                    width: 100%;
+                    text-align: center;
+                }
 
                 h4 {
                     color: #1e212b;
@@ -154,18 +192,36 @@
                     p{
                         padding-bottom: 15px;
                     }
+                    @include media-breakpoint-down(lg) { 
+                        text-align: center;
+                        padding-top: 20px;
+                     }
+
+                    @include media-breakpoint-down(md) { 
+                        text-align: center;
+                        padding-top: 20px;
+                    }
                 }
             }
         }
 
         .hot-deals{
             padding: 50px 0;
-
+            @include media-breakpoint-down(lg) { 
+                padding: 20px 0;
+             }
+            @include media-breakpoint-down(md) { 
+                padding: 20px 0;
+            }
             .section-heading {
                 //background-color: $color-2;
                 border-bottom: 2px solid $color-2;
                 width: 20%;
                 padding: 10px 0px;
+                @include media-breakpoint-down(md) { 
+                    width: 100%;
+                    text-align: center;
+                }
 
                 h4 {
                     color: #1e212b;
@@ -259,6 +315,12 @@
 
         .advertisement{
             padding: 50px 0 0;
+            @include media-breakpoint-down(lg) { 
+                padding: 20px 0;
+             }
+            @include media-breakpoint-down(md) { 
+                padding: 20px 0;
+            }
             .adv-wrap{
                 min-height: 50vh;
                 background-position: center center;

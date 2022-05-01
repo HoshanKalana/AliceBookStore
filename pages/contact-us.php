@@ -1,9 +1,9 @@
-<?php include_once("./site-components/header.php") ?>
+<?php include_once('../site-components/header.php') ?>
 
 <body>
     <div class="page-content contact-page">
         <section class="hero-banner">
-            <div class="img-wrap" style="background-image: url('./assets/images/slider-img-5.jpg')">
+            <div class="img-wrap" style="background-image: url('../assets/images/slider-img-5.jpg')">
                 <div class="overlay"></div>
                 <div class="page-title">
                     <h2>Contact Us</h2>
@@ -18,7 +18,7 @@
                 </div>
 
                 <div class="row form-row">
-                    <div class="col-12 col-md-6 col-lg-7">
+                    <div class="col-12 col-md-12 col-lg-7">
                         <div class="form-wrap">
                             <form class="row g-3">
                                 <div class="form-floating mb-3">
@@ -40,9 +40,9 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-5">
+                    <div class="col-12 col-md-12 col-lg-5">
                         <div class="img-wrap">
-                            <img class="img-fluid" src="./assets/images/slider-img-2.jpg" alt="">
+                            <img class="img-fluid" src="../assets/images/slider-img-2.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -93,4 +93,4 @@
         </section>
 
     </div>
-    <?php include_once("./site-components/footer.php")  ?>
+    <?php include_once("../site-components/footer.php")  ?>

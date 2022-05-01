@@ -1,0 +1,25 @@
+.admin-content {
+    min-height: 650px;
+    &.storeworkers-registration {
+        overflow: hidden;
+        padding: 40px 0;
+        .registration-form{
+            h3{
+                font-size: 25px;
+                font-weight: 500;
+                color: $color-5;
+                padding-bottom: 20px;
+            }
+        }
+
+        .storeworkers-data{
+            padding: 60px 0;
+            h3{
+                font-size: 25px;
+                font-weight: 500;
+                color: $color-5;
+                padding-bottom: 20px;
+            }
+        }
+    }
+}

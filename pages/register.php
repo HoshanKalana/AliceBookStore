@@ -1,9 +1,9 @@
-<?php include_once("./site-components/header.php") ?>
+<?php include_once("../site-components/header.php") ?>
 
 <body>
     <div class="page-content register-page">
         <section class="hero-banner">
-            <div class="img-wrap" style="background-image: url('./assets/images/slider-img-5.jpg')">
+            <div class="img-wrap" style="background-image: url('../assets/images/slider-img-5.jpg')">
                 <div class="overlay"></div>
                 <div class="page-title">
                     <h2>Register</h2>
@@ -14,7 +14,7 @@
         <section class="register-link">
             <div class="container">
                 <div class="link-wrap">
-                    <h4>Already have an account? Please <a href="./login.php">Login</a></h4>
+                    <h4>Already have an account? Please <a href="/pages/login.php">Login</a></h4>
                 </div>
             </div>
         </section>
@@ -22,8 +22,8 @@
         <section class="registration-form">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-2"></div>
-                    <div class="col-12 col-md-6 col-lg-8">
+                    <div class="col-12 col-md-12 col-lg-2"></div>
+                    <div class="col-12 col-md-12 col-lg-8">
                         <div class="section-heading">
                             <h4>User Registertion</h4>
                         </div>
@@ -91,11 +91,11 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-2"></div>
+                    <div class="col-12 col-md-12 col-lg-2"></div>
                 </div>
             </div>
         </section>
 
     </div>
 
-    <?php include_once("./site-components/footer.php")  ?>
+    <?php include_once("../site-components/footer.php")  ?>

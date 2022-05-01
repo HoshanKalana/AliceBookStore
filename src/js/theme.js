@@ -62,5 +62,10 @@ jQuery(function ($) {
             $("#video").attr('src', $videoSrc);
         })
 
+
+        $(document).ready(function() {
+            $('#example').DataTable();
+        } );
+
     });
 });
