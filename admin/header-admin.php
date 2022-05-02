@@ -42,7 +42,7 @@
                                 Inventory Management
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Add New Product</a></li>
+                                <li><a class="dropdown-item" href="/admin/pages/addnew-product.php">Add New Product</a></li>
                                 <li><a class="dropdown-item" href="#">View & Update Products</a></li>
                                 <li><a class="dropdown-item" href="#">Discounts Management</a></li>
                             </ul>

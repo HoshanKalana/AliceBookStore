@@ -1,0 +1,15 @@
+.admin-content {
+    min-height: 650px;
+    &.addnew-product {
+        overflow: hidden;
+        padding: 40px 0;
+        .registration-form{
+            h3{
+                font-size: 25px;
+                font-weight: 500;
+                color: $color-5;
+                padding-bottom: 20px;
+            }
+        }
+    }
+}

@@ -10,9 +10,11 @@
                         <div class="hero-caption">
                             <h2>Welcome to the</h2>
                             <h1>Alice <span>Book</span> Store</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veniam, reprehenderit quo
-                                quod perferendis, nam iure distinctio quas dolore ullam repudiandae. Dolores ex ipsa
-                                molestiae illum ratione similique delectus vero.</p>
+                            <p>Alice online Book store is a website for an extensive collection of books, stationery and
+                                magazines.
+                                Not only a “one-stop shop” for book lovers but also an interactive and innovative
+                                destination designed to make it fun and exciting to discover and shop for new books and
+                                gifts online.</p>
                         </div>
                     </div>
                 </div>
@@ -22,9 +24,11 @@
                         <div class="hero-caption">
                             <h2>Welcome to the</h2>
                             <h1>Alice <span>Book</span> Store</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veniam, reprehenderit quo
-                                quod perferendis, nam iure distinctio quas dolore ullam repudiandae. Dolores ex ipsa
-                                molestiae illum ratione similique delectus vero.</p>
+                            <p>Alice online Book store is a website for an extensive collection of books, stationery and
+                                magazines.
+                                Not only a “one-stop shop” for book lovers but also an interactive and innovative
+                                destination designed to make it fun and exciting to discover and shop for new books and
+                                gifts online.</p>
                         </div>
                     </div>
                 </div>
@@ -34,9 +38,11 @@
                         <div class="hero-caption">
                             <h2>Welcome to the</h2>
                             <h1>Alice <span>Book</span> Store</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veniam, reprehenderit quo
-                                quod perferendis, nam iure distinctio quas dolore ullam repudiandae. Dolores ex ipsa
-                                molestiae illum ratione similique delectus vero.</p>
+                            <p>Alice online Book store is a website for an extensive collection of books, stationery and
+                                magazines.
+                                Not only a “one-stop shop” for book lovers but also an interactive and innovative
+                                destination designed to make it fun and exciting to discover and shop for new books and
+                                gifts online.</p>
                         </div>
                     </div>
                 </div>
@@ -114,21 +120,21 @@
                 <div class="section-heading">
                     <h4>About Us</h4>
                 </div>
-                <div class="row content">
+                <div class="row content align-items-center">
                     <div class="col-12 col-md-12 col-lg-6">
                         <img class="img-fluid" src="./assets/images/slider-img-3.jpg" alt="">
                     </div>
                     <div class="col-12 col-md-12 col-lg-6">
                         <div class="content-wrap">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, mollitia. Neque voluptas
-                                temporibus nesciunt odio deserunt, beatae quae distinctio pariatur autem perferendis
-                                cupiditate, omnis labore quidem! Labore perspiciatis ex dolor.</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, mollitia. Neque voluptas
-                                temporibus nesciunt odio deserunt, beatae quae distinctio pariatur autem perferendis
-                                cupiditate, omnis labore quidem! Labore perspiciatis ex dolor.</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, mollitia. Neque voluptas
-                                temporibus nesciunt odio deserunt, beatae quae distinctio pariatur autem perferendis
-                                cupiditate, omnis labore quidem! Labore perspiciatis ex dolor.</p>
+                            <p>Alice Book store is truly a proper combination of tradition and modernity that brings the
+                                future to the present . Over past years it has emerged as a prestigious and the foremost
+                                network of bookshops in Central London with rapid development and expansion of its
+                                business activities both in terms of quality and quantity.</p>
+
+                            <p>Alice Book store presents a huge collection of local and foreign publications covering an
+                                array of multiple disciplines to meet the diverse needs of our wide readership that
+                                ranges from little kids to higher academics. we are trusted sellers of an extensive
+                                collection of educational items, stationeries, and magazines through our network.</p>
                         </div>
                     </div>
                 </div>

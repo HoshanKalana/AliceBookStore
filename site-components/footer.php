@@ -18,7 +18,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-4">
-                        <a class="privacy-notice" href="#">Privacy Notice</a>
+                        <a class="privacy-notice" href="/pages/privacy-notice.php">Privacy Notice</a>
                 </div>
             </div>
         </div>
