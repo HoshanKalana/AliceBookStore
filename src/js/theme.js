@@ -67,5 +67,9 @@ jQuery(function ($) {
             $('#example').DataTable();
         } );
 
+        $(document).ready(function() {
+            $('#admintable').DataTable();
+        } );
+
     });
 });

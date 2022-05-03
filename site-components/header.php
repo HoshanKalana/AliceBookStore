@@ -59,7 +59,7 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="/pages/education.php">Eductaion</a></li>
+                                <li><a class="dropdown-item" href="/pages/computing-internet.php">Computing Internet</a></li>
                                 <li><a class="dropdown-item" href="/pages/novels.php">Novels</a></li>
                             </ul>
                         </li>

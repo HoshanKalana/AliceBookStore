@@ -59,11 +59,11 @@
                         <div class="row row-cols-1 row-cols-md-4 g-4">
                             <div class="col-12 col-md-6 col-lg-3 hvr-grow">
                                 <div class="card h-100">
-                                    <img src="./assets/images/book-1.jpg" class="card-img-top" alt="...">
+                                    <img src="./assets/images/b1.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Sample Book Name</h5>
+                                        <h5 class="card-title">3 Rooms</h5>
                                         <p class="card-text">Price: <span><i class="ri-money-pound-circle-fill"></i>
-                                                100</span></p>
+                                            £8.99</span></p>
                                     </div>
                                     <div class="card-footer">
                                         <a class="add-to-cart">Add to Cart <i class="ri-shopping-cart-fill"></i></a>
@@ -72,11 +72,11 @@
                             </div>
                             <div class="col-12 col-md-6 col-lg-3 hvr-grow">
                                 <div class="card h-100">
-                                    <img src="./assets/images/book-2.jpg" class="card-img-top" alt="...">
+                                    <img src="./assets/images/b2.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Sample Book Name</h5>
+                                        <h5 class="card-title">Lessons In Chemistry</h5>
                                         <p class="card-text">Price: <span><i class="ri-money-pound-circle-fill"></i>
-                                                100</span></p>
+                                        £14.99</span></p>
                                     </div>
                                     <div class="card-footer">
                                         <a class="add-to-cart">Add to Cart <i class="ri-shopping-cart-fill"></i></a>
@@ -85,11 +85,11 @@
                             </div>
                             <div class="col-12 col-md-6 col-lg-3 hvr-grow">
                                 <div class="card h-100">
-                                    <img src="./assets/images/book-3.jpg" class="card-img-top" alt="...">
+                                    <img src="./assets/images/b3.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Sample Book Name</h5>
+                                        <h5 class="card-title">On Hampstead Heath</h5>
                                         <p class="card-text">Price: <span><i class="ri-money-pound-circle-fill"></i>
-                                                100</span></p>
+                                            £8.99</span></p>
                                     </div>
                                     <div class="card-footer">
                                         <a class="add-to-cart">Add to Cart <i class="ri-shopping-cart-fill"></i></a>
@@ -98,11 +98,11 @@
                             </div>
                             <div class="col-12 col-md-6 col-lg-3 hvr-grow">
                                 <div class="card h-100">
-                                    <img src="./assets/images/book-4.jpg" class="card-img-top" alt="...">
+                                    <img src="./assets/images/b4.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Sample Book Name</h5>
+                                        <h5 class="card-title">The House of Dudley: A New History of Tudor England</h5>
                                         <p class="card-text">Price: <span><i class="ri-money-pound-circle-fill"></i>
-                                                100</span></p>
+                                            £25.00</span></p>
                                     </div>
                                     <div class="card-footer">
                                         <a class="add-to-cart">Add to Cart <i class="ri-shopping-cart-fill"></i></a>
@@ -151,15 +151,15 @@
                         <div class="row row-cols-1 row-cols-md-4 g-4">
                             <div class="col-12 col-md-6 col-lg-3 hvr-grow">
                                 <div class="card h-100">
-                                    <img src="./assets/images/book-1.jpg" class="card-img-top" alt="...">
+                                    <img src="./assets/images/b5.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Sample Book Name</h5>
+                                        <h5 class="card-title">Peril</h5>
                                         <p class="card-text-small">Price: <i
                                                 class="ri-money-pound-circle-fill"></i><span
                                                 class="text-decoration-line-through">
-                                                100</span></p>
+                                                £23.00</span></p>
                                         <p class="card-text">New Price<span><i class="ri-money-pound-circle-fill"></i>
-                                                80</span></p>
+                                            £20.00</span></p>
                                     </div>
                                     <div class="card-footer">
                                         <a class="add-to-cart">Add to Cart <i class="ri-shopping-cart-fill"></i></a>
@@ -168,15 +168,15 @@
                             </div>
                             <div class="col-12 col-md-6 col-lg-3 hvr-grow">
                                 <div class="card h-100">
-                                    <img src="./assets/images/book-2.jpg" class="card-img-top" alt="...">
+                                    <img src="./assets/images/b6.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Sample Book Name</h5>
+                                        <h5 class="card-title">The Vaccine: Inside The Race To Conquer The Covid-19 Pandemic</h5>
                                         <p class="card-text-small">Price: <i
                                                 class="ri-money-pound-circle-fill"></i><span
                                                 class="text-decoration-line-through">
-                                                100</span></p>
+                                                £18.99</span></p>
                                         <p class="card-text">New Price<span><i class="ri-money-pound-circle-fill"></i>
-                                                80</span></p>
+                                        £14.99</span></p>
                                     </div>
                                     <div class="card-footer">
                                         <a class="add-to-cart">Add to Cart <i class="ri-shopping-cart-fill"></i></a>
@@ -185,15 +185,15 @@
                             </div>
                             <div class="col-12 col-md-6 col-lg-3 hvr-grow">
                                 <div class="card h-100">
-                                    <img src="./assets/images/book-3.jpg" class="card-img-top" alt="...">
+                                    <img src="./assets/images/b7.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Sample Book Name</h5>
+                                        <h5 class="card-title">The God Equation</h5>
                                         <p class="card-text-small">Price: <i
                                                 class="ri-money-pound-circle-fill"></i><span
                                                 class="text-decoration-line-through">
-                                                100</span></p>
+                                                £12.99</span></p>
                                         <p class="card-text">New Price<span><i class="ri-money-pound-circle-fill"></i>
-                                                80</span></p>
+                                        £9.99</span></p>
                                     </div>
                                     <div class="card-footer">
                                         <a class="add-to-cart">Add to Cart <i class="ri-shopping-cart-fill"></i></a>
@@ -202,15 +202,15 @@
                             </div>
                             <div class="col-12 col-md-6 col-lg-3 hvr-grow">
                                 <div class="card h-100">
-                                    <img src="./assets/images/book-4.jpg" class="card-img-top" alt="...">
+                                    <img src="./assets/images/b8.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Sample Book Name</h5>
+                                        <h5 class="card-title">Blood and Oil</h5>
                                         <p class="card-text-small">Price: <i
                                                 class="ri-money-pound-circle-fill"></i><span
                                                 class="text-decoration-line-through">
-                                                100</span></p>
+                                                £13.99</span></p>
                                         <p class="card-text">New Price<span><i class="ri-money-pound-circle-fill"></i>
-                                                80</span></p>
+                                        £10.99</span></p>
                                     </div>
                                     <div class="card-footer">
                                         <a class="add-to-cart">Add to Cart <i class="ri-shopping-cart-fill"></i></a>

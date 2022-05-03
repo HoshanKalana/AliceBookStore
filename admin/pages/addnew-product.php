@@ -1,35 +1,6 @@
 <?php include_once("../header-admin.php"); 
-    require '../../DBConnect.php'; 
-
-    if(isset($_POST['submit']))
-    {	 
-         $product_name = $_POST['pname'];
-
-         $filename = $_FILES["productimg"]["name"];
-         $tempname = $_FILES["productimg"]["tmp_name"];    
-        $folder = "../../assets/images/".$filename;
-               
-
-         $sql = "INSERT INTO product (ProductName,ProductImage) VALUES ('$product_name ', '$filename')";
-         if (mysqli_query($conn, $sql)) {
-            echo "New record created successfully !";
-         } else {
-            echo "Error: " . $sql . " " . mysqli_error($conn);
-         }
-         mysqli_close($conn);
-
-                 // Now let's move the uploaded image into the folder: image
-        if (move_uploaded_file($tempname, $folder))  {
-            $msg = "Image uploaded successfully";
-        }else{
-            $msg = "Failed to upload image";
-
-
-      }
-    }
+    //require '../../DBConnect.php'; 
     ?>
-
-
 <body>
 
     <div class="admin-content addnew-product">
@@ -62,18 +33,80 @@
                         <button type="submit" name="submit" class="btn btn-primary">Create Account</button>
                     </div>
                 </form>
-                <?php
-                $data = '';
-                $result = mysqli_query($conn, "SELECT * FROM product");
-                while($data = mysqli_fetch_array($result))
-                {
-  
-                ?>
-                <img src="<?php echo $data['Filename']; ?>">
+            </div>
+        </section>
 
-                <?php
-                }
-                ?>
+        <section class="product-table pt-5">
+            <div class="container">
+                <table id="product-table" class="table table-striped" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Office</th>
+                            <th>Age</th>
+                            <th>Start date</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                        <tr>
+                            <td>Garrett Winters</td>
+                            <td>Accountant</td>
+                            <td>Tokyo</td>
+                            <td>63</td>
+                            <td>2011/07/25</td>
+                            <td>$170,750</td>
+                        </tr>
+                        <tr>
+                            <td>Ashton Cox</td>
+                            <td>Junior Technical Author</td>
+                            <td>San Francisco</td>
+                            <td>66</td>
+                            <td>2009/01/12</td>
+                            <td>$86,000</td>
+                        </tr>
+                        <tr>
+                            <td>Cedric Kelly</td>
+                            <td>Senior Javascript Developer</td>
+                            <td>Edinburgh</td>
+                            <td>22</td>
+                            <td>2012/03/29</td>
+                            <td>$433,060</td>
+                        </tr>
+                        <tr>
+                            <td>Airi Satou</td>
+                            <td>Accountant</td>
+                            <td>Tokyo</td>
+                            <td>33</td>
+                            <td>2008/11/28</td>
+                            <td>$162,700</td>
+                        </tr>
+                        <tr>
+                            <td>Brielle Williamson</td>
+                            <td>Integration Specialist</td>
+                            <td>New York</td>
+                            <td>61</td>
+                            <td>2012/12/02</td>
+                            <td>$372,000</td>
+                        </tr>
+                        <tr>
+                            <td>Herrod Chandler</td>
+                            <td>Sales Assistant</td>
+                            <td>San Francisco</td>
+                            <td>59</td>
+                            <td>2012/08/06</td>
+                            <td>$137,500</td>
+                        </tr>
+                </table>
             </div>
         </section>
 
