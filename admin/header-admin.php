@@ -33,20 +33,17 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Office users Management</a></li>
-                                <li><a class="dropdown-item" href="/admin/pages/storeworkers-registration.php">Store Workers Management</a></li>
-                                <li><a class="dropdown-item" href="/admin/pages/admin-registration.php">Create New Admin Account</a></li>
+                                <li><a class="dropdown-item" href="/admin/pages/storeworkers-registration.php">Store
+                                        Workers Management</a></li>
+                                <li><a class="dropdown-item" href="/admin/pages/admin-registration.php">Create New Admin
+                                        Account</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Inventory Management
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/admin/pages/addnew-product.php">Add New Product</a></li>
-                                <li><a class="dropdown-item" href="#">View & Update Products</a></li>
-                                <li><a class="dropdown-item" href="#">Discounts Management</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/admin/pages/addnew-product.php">Inventory Management</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Discounts Management</a>
                         </li>
                     </ul>
                     <form class="d-flex">

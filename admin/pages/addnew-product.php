@@ -1,6 +1,7 @@
 <?php include_once("../header-admin.php"); 
     //require '../../DBConnect.php'; 
     ?>
+
 <body>
 
     <div class="admin-content addnew-product">
@@ -30,7 +31,7 @@
                         </select>
                     </div>
                     <div class="col-12">
-                        <button type="submit" name="submit" class="btn btn-primary">Create Account</button>
+                        <button type="submit" name="submit" class="btn btn-success">Create Account</button>
                     </div>
                 </form>
             </div>
@@ -41,70 +42,54 @@
                 <table id="product-table" class="table table-striped" style="width:100%">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Position</th>
-                            <th>Office</th>
-                            <th>Age</th>
-                            <th>Start date</th>
-                            <th>Salary</th>
+                            <th>Product Name</th>
+                            <th>Product Image</th>
+                            <th>Price</th>
+                            <th>Product Category</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Tiger Nixon</td>
-                            <td>System Architect</td>
-                            <td>Edinburgh</td>
-                            <td>61</td>
-                            <td>2011/04/25</td>
-                            <td>$320,800</td>
+                            <td>Club A4 Refill Pad Red 160 Pages/80 Leaves</td>
+                            <td><img width="100px" src="/../assets/images/b46.jpg" alt=""></td>
+                            <td>£1.99</td>
+                            <td>stationary</td>
                         </tr>
                         <tr>
-                            <td>Garrett Winters</td>
-                            <td>Accountant</td>
-                            <td>Tokyo</td>
-                            <td>63</td>
-                            <td>2011/07/25</td>
-                            <td>$170,750</td>
+                            <td>Ryman Multi Premium Copy Ream of Paper A4 100gsm 500 Sheets</td>
+                            <td><img width="100px" src="/../assets/images/b54.jpg" alt=""></td>
+                            <td>12.99</td>
+                            <td>stationary</td>
                         </tr>
                         <tr>
-                            <td>Ashton Cox</td>
-                            <td>Junior Technical Author</td>
-                            <td>San Francisco</td>
-                            <td>66</td>
-                            <td>2009/01/12</td>
-                            <td>$86,000</td>
+                            <td>Ryman Bank Typing Paper A4 45gsm 100 Sheets</td>
+                            <td><img width="100px" src="/../assets/images/b55.jpg" alt=""></td>
+                            <td>£1.99</td>
+                            <td>stationary</td>
                         </tr>
                         <tr>
-                            <td>Cedric Kelly</td>
-                            <td>Senior Javascript Developer</td>
-                            <td>Edinburgh</td>
-                            <td>22</td>
-                            <td>2012/03/29</td>
-                            <td>$433,060</td>
+                            <td>AS and A-Level Psychology</td>
+                            <td><img width="100px" src="/../assets/images/b9.jpg" alt=""></td>
+                            <td>19.99</td>
+                            <td>school books</td>
                         </tr>
                         <tr>
-                            <td>Airi Satou</td>
-                            <td>Accountant</td>
-                            <td>Tokyo</td>
-                            <td>33</td>
-                            <td>2008/11/28</td>
-                            <td>$162,700</td>
+                            <td>A-Level Biology: AQA Year 1 & 2 Complete Revision & Practice with Online Edition</td>
+                            <td><img width="100px" src="/../assets/images/b14.jpg" alt=""></td>
+                            <td>£1.99</td>
+                            <td>school books</td>
                         </tr>
                         <tr>
-                            <td>Brielle Williamson</td>
-                            <td>Integration Specialist</td>
-                            <td>New York</td>
-                            <td>61</td>
-                            <td>2012/12/02</td>
-                            <td>$372,000</td>
+                            <td>The Atlas Six - Atlas series</td>
+                            <td><img width="100px" src="/../assets/images/b34.jpg" alt=""></td>
+                            <td>14.99</td>
+                            <td>novels</td>
                         </tr>
                         <tr>
-                            <td>Herrod Chandler</td>
-                            <td>Sales Assistant</td>
-                            <td>San Francisco</td>
-                            <td>59</td>
-                            <td>2012/08/06</td>
-                            <td>$137,500</td>
+                            <td>The Age of The Strongman</td>
+                            <td><img width="100px" src="/../assets/images/b40.jpg" alt=""></td>
+                            <td>£17.99</td>
+                            <td>novels</td>
                         </tr>
                 </table>
             </div>
